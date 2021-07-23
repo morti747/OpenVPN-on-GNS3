@@ -52,6 +52,9 @@ When executed for the first time, the script will ask you some questions, read t
  
 ##
 
+Once the VPN installation process is complete, a client configuration file will be written under the current working directory. This is the file you will use to configure your OpenVPN client as described in the next section.
+
+##
 ![image](images/7.PNG)
  
  
