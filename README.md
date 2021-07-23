@@ -139,7 +139,7 @@ On a desktop system, you also need to install the network-manager-openvpn packag
 ##
 
 ``
-sudo apt install network-manager-openvpn
+sudo apt-get install network-manager-openvpn
 ``
 ##
 ##
@@ -180,7 +180,6 @@ If you need to install SSH on your instruments, you can use the following comman
 ##
 ``
 sudo apt-get install ssh
-
 ``
 ##
 
@@ -188,20 +187,17 @@ sudo apt-get install ssh
  
 ##
 
+and the check its status: 
+
+``
+sudo systemctl status ssh
+``
+##
+
+![image](images/18.PNG) 
+ 
+##
 
 
- ##
-:pushpin: 1- La commande TRACERT
- 
- :pushpin: 2- Firewalld. D'abord je vous explique comment installer firewalld sur votre serveur,et comment le configurer. Et après, le configurer d'une manière que seulement une           spécifique address IP ait l'autorité de le conneceter. À la suite, vous utilisez SSH et l'address IP de l'interface de votre OpenVPN pour vous connecter à votre serveur.
- 
 
-
- :star: D'abord en utilisant les commmandes suivantes on va recevoire les derniers mis à jours.
- 
- :~$ sudo apt-get update
- 
- :~$ sudo apt-get upgrade
- 
- ![image](images/22.PNG)
  
