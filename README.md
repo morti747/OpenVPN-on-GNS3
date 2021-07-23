@@ -64,11 +64,27 @@ Once the VPN installation process is complete, a client configuration file will 
 ##
 ![image](images/9.PNG)
  
- 
+##
+
+Next, confirm that the OpenVPN service is up and running by checking its status using the following:
  
 ##
+
+:~$ sudo systemctl status openvpn
+
+##
+![image](images/10.PNG)
+
+
+
+
+
+
+
+
+##
  
- :pushpin: 1- La commande TRACERT
+:pushpin: 1- La commande TRACERT
  
  :pushpin: 2- Firewalld. D'abord je vous explique comment installer firewalld sur votre serveur,et comment le configurer. Et après, le configurer d'une manière que seulement une           spécifique address IP ait l'autorité de le conneceter. À la suite, vous utilisez SSH et l'address IP de l'interface de votre OpenVPN pour vous connecter à votre serveur.
  
