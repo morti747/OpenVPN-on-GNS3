@@ -35,10 +35,24 @@
 
 ##
 :pushpin: Next, run the executable installer script as shown.
+##
 
+When executed for the first time, the script will ask you some questions, read them carefully, and provide answers according to your preferences, to set up your OpenVPN server.
+
+##
 ![image](images/4.PNG) 
  
+## 
+
+![image](images/5.PNG)
  
+##
+
+![image](images/6.PNG)
+ 
+##
+
+![image](images/7.PNG)
  
  
  
