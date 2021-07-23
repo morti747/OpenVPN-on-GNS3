@@ -117,16 +117,36 @@ Also, confirm that the OpenVPN daemon is listening on the port you instructed th
 ##
  
  
+# Step 2: Setup OpenVPN Clients in Ubuntu 
  
+:pushpin: Now its time to set up your OpenVPN client and connect it to the VPN server. First, install the OpenVPN package in the client machine as follows.
  
+##
+``
+sudo apt install openvpn
+``
+
+##
+![image](images/13.PNG)
+
+## 
  
- 
- 
- 
- 
- 
- 
- 
+##
+On a desktop system, you also need to install the network-manager-openvpn package to make VPN settings from the graphical interface.
+
+##
+
+##
+``
+sudo apt install network-manager-openvpn
+
+``
+
+##
+##
+![image](images/14.PNG)
+
+## 
  
  
  
