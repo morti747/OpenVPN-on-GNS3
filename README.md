@@ -19,15 +19,16 @@
  :pushpin: we will be using a script that lets you set up your own secure OpenVPN server in a matter of seconds. 
  ##
  :pushpin: so we are going to download the installer script using the curl command-line tool, then make it executable using the chmod command as follows.
- 
+ ``
  :~$ curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+``
 ##
 
 ##
 ![image](images/2.PNG)
- 
+``
  :~$ chmod +x openvpn-install.sh 
- 
+`` 
 ##
  ![image](images/3.PNG)
  
@@ -69,23 +70,28 @@ Once the VPN installation process is complete, a client configuration file will 
 Next, confirm that the OpenVPN service is up and running by checking its status using the following:
  
 ##
-
+``
 :~$ sudo systemctl status openvpn
-
+``
 ##
 ![image](images/10.PNG)
 
 ##
-Then check if the OpenVPN interface exists and has got the IP address: 
-
+ If you check your network interfaces, a new interface has been created for a VPN tunnel, you can confirm this by using IP command.
+ 
+##
+``
+:~$ IP addr
+``
 ##
 ![image](images/11.PNG)
 ##
 
 Also, confirm that the OpenVPN daemon is listening on the port you instructed the script to use, using the ss command as shown.
 
+``
 :~$ sudo ss -tupln | grep openvpn
-
+``
 ##
 
 ##
@@ -93,6 +99,21 @@ Also, confirm that the OpenVPN daemon is listening on the port you instructed th
 
 ##
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ##
 :pushpin: 1- La commande TRACERT
  
  :pushpin: 2- Firewalld. D'abord je vous explique comment installer firewalld sur votre serveur,et comment le configurer. Et après, le configurer d'une manière que seulement une           spécifique address IP ait l'autorité de le conneceter. À la suite, vous utilisez SSH et l'address IP de l'interface de votre OpenVPN pour vous connecter à votre serveur.
