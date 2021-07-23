@@ -147,6 +147,26 @@ sudo apt install network-manager-openvpn
 
 ## 
  
+After installing the above packages, start the OpenVPN service, for now, enable it to automatically start at system boot and check its status to confirm that it’s up and running.
+
+``
+sudo systemctl start openvpn 
+sudo systemctl enable openvpn
+sudo systemctl status openvpn
+``
+
+##
+
+![image](images/15.PNG)
+##
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  ##
