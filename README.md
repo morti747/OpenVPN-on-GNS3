@@ -214,4 +214,69 @@ Now check if you can reach your server using ssh, and use ip addr command to see
 ![image](images/20.PNG) 
 
 ##
- 
+
+##
+
+![image](images/21.PNG) 
+
+##
+
+Now you need to import the OpenVPN client settings from the OpenVPN server. Open a terminal window and use the SCP command to grab the file as shown:
+
+##
+``
+scp osboxes@10.8.0.1:/home/osboxes/morty.ovpn .
+``
+##
+
+##
+![image](images/22.PNG) 
+##
+
+##
+Open system Settings, then go to Networks. Under VPN, click the add button to get the necessary options.
+##
+
+
+##
+![image](images/23.1.PNG) 
+
+##
+
+##
+![image](images/23.2.PNG) 
+
+##
+
+##
+![image](images/24.PNG) 
+
+##
+After importing the file, the VPN settings should be added as shown in the following screenshot. Then click Add.
+
+
+##
+![image](images/25.1.PNG) 
+
+##
+
+Your VPN client settings should be added successfully. You can connect to the OpenVPN server by turning on the VPN as highlighted in the following screenshot.
+
+##
+![image](images/27.PNG) 
+##
+
+If you check your network interface connections using the IP add command, there should now exist a VPN tunnel interface as highlighted in the following screenshot.
+
+##
+![image](images/30.PNG) 
+##
+
+
+
+
+
+
+
+
+
