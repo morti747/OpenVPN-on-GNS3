@@ -167,14 +167,29 @@ sudo systemctl status openvpn
 ##
  
  
+:pushpin: Check if you can reach the server from the client using ping and ssh commands: 
+
+## 
+![image](images/16.PNG)
+
+## 
+##
+
+If you need to install SSH on your instruments, you can use the following command: 
+
+##
+``
+sudo apt-get install ssh
+
+``
+##
+
+![image](images/17.PNG) 
  
- 
- 
- 
- 
- 
- 
- 
+##
+
+
+
  ##
 :pushpin: 1- La commande TRACERT
  
