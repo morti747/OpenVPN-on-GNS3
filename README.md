@@ -151,7 +151,13 @@ After installing the above packages, start the OpenVPN service, for now, enable 
 
 ``
 sudo systemctl start openvpn 
+``
+##
+``
 sudo systemctl enable openvpn
+``
+##
+``
 sudo systemctl status openvpn
 ``
 
