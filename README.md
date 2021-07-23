@@ -5,10 +5,12 @@
 
 :pushpin: in this topology I'll show you how to install OpenVpn in different instruments and how to create the connection between them in the different networks.
 
+##
 ![image](images/1.1.PNG)
 
 
  # Step 1: Setting Up OpenVPN Server on Ubuntu
+ ##
  :pushpin: first we are going to receive all update packets using :~$ sudo apt get update command:
  ![image](images/1.PNG)
  
@@ -17,13 +19,17 @@
  
  :~$ curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 ##
+
+##
 ![image](images/2.PNG)
  
  :~$ chmod +x openvpn-install.sh 
+ 
+##
  ![image](images/3.PNG)
  
  
-![image](images/1.1.PNG)
+
  
  
  :pushpin: 1- La commande TRACERT
