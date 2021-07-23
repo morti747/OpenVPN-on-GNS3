@@ -12,9 +12,12 @@
  # Step 1: Setting Up OpenVPN Server on Ubuntu
  ##
  :pushpin: first we are going to receive all update packets using :~$ sudo apt get update command:
+ 
+ ##
  ![image](images/1.PNG)
  
  :pushpin: we will be using a script that lets you set up your own secure OpenVPN server in a matter of seconds. 
+ ##
  :pushpin: so we are going to download the installer script using the curl command-line tool, then make it executable using the chmod command as follows.
  
  :~$ curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
