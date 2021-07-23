@@ -198,6 +198,20 @@ sudo systemctl status ssh
  
 ##
 
+##
+
+Now check if you can reach your server using ssh, and use ip addr command to see its interfaces: 
 
 
+##
+
+![image](images/19.PNG) 
+
+##
+
+##
+
+![image](images/20.PNG) 
+
+##
  
