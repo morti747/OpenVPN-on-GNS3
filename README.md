@@ -31,9 +31,18 @@
 ##
  ![image](images/3.PNG)
  
- 
+##
 
+##
+:pushpin: Next, run the executable installer script as shown.
+
+![image](images/4.PNG) 
  
+ 
+ 
+ 
+ 
+##
  
  :pushpin: 1- La commande TRACERT
  
