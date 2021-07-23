@@ -75,12 +75,17 @@ Next, confirm that the OpenVPN service is up and running by checking its status 
 ##
 ![image](images/10.PNG)
 
+##
+##
 
+Also, confirm that the OpenVPN daemon is listening on the port you instructed the script to use, using the ss command as shown.
 
+:~$ sudo ss -tupln | grep openvpn
 
+##
 
-
-
+##
+![image](images/11.PNG)
 
 ##
  
