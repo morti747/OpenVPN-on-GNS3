@@ -8,7 +8,22 @@
 ![image](images/1.1.PNG)
 
  
- :pushpin: À la fin, je vais vous montrer comment vous assurer que vous êtes connecté à votre serveur à partir de votre OpenVPN en utilisant:
+ :pushpin: Step 1: Setting Up OpenVPN Server on Ubuntu
+ # first we are going to receive all update packets using :~$ sudo apt get update command:
+ ![image](images/1.PNG)
+ 
+ # we will be using a script that lets you set up your own secure OpenVPN server in a matter of seconds. 
+ # so we are going to download the installer script using the curl command-line tool, then make it executable using the chmod command as follows.
+ 
+ :~$ curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+ ![image](images/2.PNG)
+ 
+ :~$ chmod +x openvpn-install.sh 
+ ![image](images/3.PNG)
+ 
+ 
+![image](images/1.1.PNG)
+ 
  
  :pushpin: 1- La commande TRACERT
  
