@@ -272,9 +272,21 @@ If you check your network interface connections using the IP add command, there 
 ![image](images/30.PNG) 
 ##
 
+Another way to confirme that our tunnel is working is using the traceroute command: 
 
+``
+sudo apt-get install traceroute
+``
 
+##
+![image](images/31.PNG) 
+##
 
+Now, if we use traceroute to see how many instruments we are going to pass to reach the different interfaces of our server, we can easily prouve that our tunnel is working.
+
+##
+![image](images/32.PNG) 
+##
 
 
 
