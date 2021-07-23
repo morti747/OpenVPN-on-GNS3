@@ -89,7 +89,7 @@ Also, confirm that the OpenVPN daemon is listening on the port you instructed th
 ##
 
 ##
-![image](images/12.PNG)
+![image](images/12.2.PNG)
 
 ##
  
